@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: da-gateway
+  profiles:
+    active: dev
+  config:
+    # optional:
+    import: "configserver:http://localhost:8888"

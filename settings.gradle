@@ -1,0 +1,6 @@
+rootProject.name='cloud-test'
+
+include 'config'
+include 'lib'
+include 'gateway'
+include 'first'
